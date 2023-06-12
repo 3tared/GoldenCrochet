@@ -1,0 +1,26 @@
+@keyframes left-move {
+  50% {
+    left: 0;
+    width: 14px;
+    height: 14px;
+  }
+  100% {
+    left: 0;
+    width: 50.1%;
+    height: 100%;
+    border-radius: 15px 0 0 15px;
+  }
+}
+@keyframes right-move {
+  50% {
+    right: 0;
+    width: 14px;
+    height: 14px;
+  }
+  100% {
+    right: 0;
+    width: 50%;
+    height: 100%;
+    border-radius: 0 15px 15px 0;
+  }
+}
